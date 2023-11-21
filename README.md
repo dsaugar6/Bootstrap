@@ -7,6 +7,223 @@
     <title>Examen Jeremy Martinez</title>
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <style>
+        * {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.header {
+    background-color: #0FD3A0;
+    opacity: 80%;
+    width: 100%;
+    padding: 30px;
+    font-size: 35px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+}
+
+#img1 {
+    width: 100px;
+    float: left;
+    opacity: 100%;
+    border-radius: 37px;
+}
+
+#pk {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#pos {
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#fname {
+    margin-left: 100px;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    color: bisque;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.loma {
+    margin-top: 10px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#vid {
+    width: 80%;
+    height: 200px;
+}
+
+form {
+    color: #f1f1f1;
+}
+
+#sub {
+    height:
+        30px;
+    width: 15%;
+}
+
+#sub1 {
+    height:
+        30px;
+    width: 20%;
+}
+
+table {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: cadetblue;
+}
+
+td {
+    background-color: cornflowerblue;
+}
+
+.footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.fot1 {
+    float: left;
+    width: 33.33%;
+    margin-top: 30px;
+}
+
+hr {
+    width: 50%;
+}
+
+.far {
+    font-size: "24px";
+}
+
+#boxeadores {
+    width: 50%;
+    margin: auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+div.desc {
+    text-align: center;
+}
+
+th {
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+tr {
+    background-color: cornflowerblue;
+}
+
+#boxeotexto {
+    color: blanchedalmond;
+}
+
+#extra {
+    padding-bottom: 200px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+    </style>
 </head>
 
 <body>
